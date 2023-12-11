@@ -1,0 +1,88 @@
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Pixelify Sans', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 
+        var(--scroll-padding, 5rem)
+    
+}
+
+.quas{
+    background: fixed;
+    background-color: aliceblue;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1350px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 00.3);
+}
+
+.muscle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appear {
+    font-size: 25px;
+    border: 1.8px solid #6600ff;
+    background: none;
+    padding: 10px 20px;
+    font-family: 'Pixelify Sans', cursive;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.appear {
+    color: #5cffae
+}
+.appear:hover {
+    color: rgb(255, 119, 0);
+}
+
+.wex{
+    text-align: center;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.quas .contact{
+    margin-left: 400px;
+}
+
+.quas .contact ul{
+    margin-left: 41px;
+}
+
+.quas .contact ul li{
+    display: inline-block;
+}
+
+.quas .contact ul li a{
+    color: rgb(255, 0, 144);
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.quas .contact ul li a:hover{
+    color: rgb(96, 4, 73);
+}
+
+.quas .contact ul li a.sep{
+    margin: 0 28px;
+    opacity: 0.3;
+}
+
+.show {
+    border-radius: 20px
+}
