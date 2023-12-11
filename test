@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAIN PAGE</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <h2>Link to Resume</h2>
+    <a href="./about.html"><h2>RESUME</h2></a>
+</body>
+</html>
+function show () {
+    document.getElementById("exort").style.display = 'block';
+    document.getElementById("show").style.display = 'none';
+}
+function back () {
+    document.getElementById("exort").style.display = 'none';
+    document.getElementById("show").style.display = 'block';
+}
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Pixelify Sans', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 
+        var(--scroll-padding, 5rem)
+    
+}
+
+.quas{
+    background: fixed;
+    background-color: aliceblue;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1350px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 00.3);
+}
+
+.muscle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appear {
+    font-size: 25px;
+    border: 1.8px solid #6600ff;
+    background: none;
+    padding: 10px 20px;
+    font-family: 'Pixelify Sans', cursive;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.appear {
+    color: #5cffae
+}
+.appear:hover {
+    color: rgb(255, 119, 0);
+}
+
+.wex{
+    text-align: center;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.quas .contact{
+    margin-left: 400px;
+}
+
+.quas .contact ul{
+    margin-left: 41px;
+}
+
+.quas .contact ul li{
+    display: inline-block;
+}
+
+.quas .contact ul li a{
+    color: rgb(255, 0, 144);
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.quas .contact ul li a:hover{
+    color: rgb(96, 4, 73);
+}
+
+.quas .contact ul li a.sep{
+    margin: 0 28px;
+    opacity: 0.3;
+}
+
+.show {
+    border-radius: 20px
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quas">
+        <div class="wex">
+            <button id="show" onclick="show()">show</button>
+            <div id="exort" style="display: none;">
+                <img src="https://cdn.discordapp.com/attachments/696613274967343164/1160418513085800519/image.png?ex=653496f5&is=652221f5&hm=3e6c7ea5b5de491f673cf12106b8a1507f81ef53196d3a05a5c6969b45fdd3b3&" style="height: 200px; width: 200px; border-radius: 50%; overflow: hidden; margin: 25px auto; border: 15px groove rgb(41, 216, 117);">
+                <button onclick="back()">Hide</button>
+                <a href="./index.html"><h3>Return</h3></a>
+            </div>
+            <h1>Jonnie T. Catungal jr.</h1>
+            <h3>UC BSIT CITCS Student</h3>
+        <div class="Muscle">
+                <div id="abt"style="display: block;">
+                    <h2>About myself</h2>
+                    <p>I am Jonnie T. Catungal jr. I'm 19 years old and I am a dedicated and passionate individual
+                        pursuing challenges and test my skills and proving myself. I live in Philippines and I can speak
+                        english fluently.
+                    </p>
+                </div>
+                <div id="edu">
+                    <h2>My education</h2>
+                    <h3>Emilio Aguinaldo Elementary School</h3>
+                    <p>Accomplished Elementary education in Aguin EAES</p>
+                    <h3>Pines City National High School</h3>
+                    <p>Accomplished junior high school years and graduated in PCNHS</p>
+                    <h3>STI College Baguio</h3>
+                    <p>Associate of STEM in Science, Technology, Engineering, Math in Baguio City School of information technology education</p>
+                    <h3>University of the Coridlleras</h3>
+                    <p>Currently studying in UC</p>
+                </div>
+                <div id="skills">
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>Multi tasking</li>
+                        <li>Adaptability</li>
+                        <li>Basic computer skills</li>
+                        <li>Goal-Oriented</li>
+                        <li>Critical Thinking</li>
+                        <li>Attention to detail</li>
+                    </ul>
+                </div>
+                <div id="contact">
+                    <h2>My contact</h2>
+                    <ul>
+                        <li><a href="#" class="My">Gmail</a></li>
+                        <li><a href="#" class="email">jonniejrcatungal@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
